@@ -1,0 +1,84 @@
+html, body {
+    padding: 25px 0;
+    margin: 0;
+    font: normal 16px "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    background: url("./image/images.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  main {
+    display: block;
+    max-width: 400px;
+    min-width: 250px;
+    padding: 20px;
+    margin: 0 auto;
+    background: black;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+ 
+  @media (max-width: 480px) {
+    main {
+      width: 90%;
+    }
+  }
+  
+  h1 {
+    color: #ff0000;
+  }
+  
+  fieldset {
+    padding: 0 0 25px 0;
+    margin: 0;
+    border: none;
+  }
+  
+  input[type="number"] {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    font: normal 20px "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+    color: #3e3f3f;
+    background-color: #0be6db;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+    font: normal 20px Helvetica, Arial, sans-serif;
+    color: #000;
+    text-shadow: 1px 1px 5px rgba(80, 80, 80, .8);
+    border: none;
+    background: #ff0000;
+    
+  }
+
+  input[type="submit"]:hover{
+    background-color: #16997c;
+  }
+  
+  a { 
+    color: #dbe9e5; 
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover{
+    color: aliceblue;
+  }
+  
+  #guess {
+    width: 90px;
+  }
